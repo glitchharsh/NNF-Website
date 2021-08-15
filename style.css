@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+:root {
+    --black: #000;
+    --white: #fff;
+    --dark-sienna: #420e13;
+    --rose-red: #bf0056;
+    --nyanza: #e5ffde;
+    --magnolia: #ecf1fe;
+    --palatinate-purple: #502059;
+}
+
+.nav-bar {
+    height: 8vh;
+    background-color: var(--rose-red);
+    color: var(--white);
+}
+
+.body {
+    height:92vh;
+    background-color: var(--nyanza);
+    color: var(--black);
+}
+
+.footer {
+    height: 6vh;
+    background-color: var(--rose-red);
+    color: var(--white);
+}
